@@ -1,9 +1,9 @@
 ✅ Project Documentation
-Hosting Static Website on Ubuntu NGINX via GitHub (Azure VM)
+- Hosting Static Website on Ubuntu NGINX via GitHub (Azure VM)
 
 🔹 Objective:
 
-To deploy a static HTML5 template website from a GitHub repository 
+- To deploy a static HTML5 template website from a GitHub repository 
 to an Ubuntu 24.04 Azure Virtual Machine (VM) using NGINX.
 
 🔸 Prerequisites:
@@ -35,11 +35,11 @@ Use MobaXterm:
 🟢 Step 3: Update Ubuntu & Install NGINX
 
 Commands:
-sudo su
-apt update -y
-apt install nginx -y
-systemctl enable nginx
-systemctl start nginx
+- sudo su
+- apt update -y
+- apt install nginx -y
+- systemctl enable nginx
+- systemctl start nginx
 
 🔎 Visit http://13.201.20.161 → You should see the NGINX Welcome page.
 
@@ -49,7 +49,7 @@ systemctl start nginx
 🟢 Step 4: Git Clone from GitHub Repository
 
 Command:
-git clone https://github.com/rahulchaubey91/templatemo_569_edu_meeting.git
+- git clone https://github.com/rahulchaubey91/templatemo_569_edu_meeting.git
 
 <img width="1917" height="1072" alt="image" src="https://github.com/user-attachments/assets/856d32b8-a2ed-44c2-8dc5-d6ffaf22a44f" />
 
@@ -58,9 +58,9 @@ git clone https://github.com/rahulchaubey91/templatemo_569_edu_meeting.git
 🟢 Step 5: Deploy Website to NGINX Directory
 
 Commands:
-rm -rf /var/www/html/*
-cp -r /home/ubuntu/templatemo_569_edu_meeting/* /var/www/html/
-ls /var/www/html
+- rm -rf /var/www/html/*
+- cp -r /home/ubuntu/templatemo_569_edu_meeting/* /var/www/html/
+- ls /var/www/html
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/20862381-dab7-43f4-9857-b4cc2d5519c4" />
 
@@ -68,15 +68,15 @@ ls /var/www/html
 🟢 Step 6: Restart NGINX
 
 Command:
-systemctl restart nginx
+- systemctl restart nginx
 
 ✅ Final Output
 
 Open in browser:
-http://13.201.20.161
+- http://13.201.20.161
 
 You should see:
-TemplateMo Educational HTML CSS template deployed successfully.
+- TemplateMo Educational HTML CSS template deployed successfully.
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/e478fe61-414a-43f2-b67b-83bad9c1e418" />
 
