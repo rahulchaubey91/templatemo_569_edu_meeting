@@ -29,7 +29,8 @@ to an Ubuntu 24.04 Azure Virtual Machine (VM) using NGINX.
 
 Use MobaXterm:
 
-ssh -i "azure-vm-key.pem" ubuntu@<Azure-VM-Public-IP>
+<img width="998" height="667" alt="image" src="https://github.com/user-attachments/assets/936d3a02-2410-46c5-9f2c-c5a57c727ea4" />
+
 
 🟢 Step 3: Update Ubuntu & Install NGINX
 
